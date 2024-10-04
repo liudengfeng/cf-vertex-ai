@@ -22,6 +22,7 @@ worker name: cf-vertex-ai
 
 Secrets are a type of binding that allow you to attach encrypted text values to your Worker. You cannot see secrets after you set them and can only access secrets via Wrangler or programmatically via the env parameter. Secrets are used for storing sensitive information like API keys and auth tokens. Secrets are available on the env parameter passed to your Worker’s fetch event handler.
 
+来自 Google 服务账号
 ```
 npx wrangler secret put API_KEY
 <!-- 根据提示输入 -->
